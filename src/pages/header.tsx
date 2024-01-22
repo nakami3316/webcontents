@@ -23,12 +23,12 @@ export default function Header(props: any) {
                 {/* <!-- logo - end --> */}
 
                 {/* <!-- nav - start --> */}
-                <nav className="hidden gap-12 lg:flex">
-                    <a href="/" className="text-lg font-semibold text-indigo-500">Home</a>
-                    <a href="/detail" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Detail</a>
-                    <a href="/about" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">About</a>
-                    <a href="/qanda" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Q&A</a>
-                </nav>
+                {/* <nav className="hidden gap-12 lg:flex"> */}
+                <a href="/" className="text-lg font-semibold text-indigo-500">Home</a>
+                <a href="/detail" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Detail</a>
+                <a href="/about" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">About</a>
+                <a href="/qanda" className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Q&A</a>
+                {/* </nav> */}
                 {/* <!-- nav - end --> */}
 
                 {/* <!-- buttons - start --> */}
